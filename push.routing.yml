@@ -1,0 +1,7 @@
+push.push:
+  path: /push/{object}/{store}
+  defaults:
+    _controller: 'Drupal\push\Controller\PushController::push'
+    _title: 'Push Object'
+  requirements:
+    _permission: 'access content'

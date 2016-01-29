@@ -1,0 +1,4 @@
+name: Push
+description: Examples of Block, Services, Entities, Config Form
+type: module
+core: 8.x
