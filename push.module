@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file 
+ * module file
+ */
+
+/**
+ * Implement hook_theme
+ */
+function push_theme() {
+  $theme['push_page'] = [
+      'variables' => ['object' => NULL, 'store' => NULL],
+      'template' => 'push_page',
+  ];
+  
+  return $theme;
+}
