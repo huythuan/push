@@ -1,0 +1,3 @@
+configure_push:
+  title: 'Configure the push system'
+  description: 'Configure the default push'

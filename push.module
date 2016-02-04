@@ -9,7 +9,7 @@
  */
 function push_theme() {
   $theme['push_page'] = [
-      'variables' => ['object' => NULL, 'store' => NULL],
+      'variables' => ['object' => NULL, 'store' => NULL, 'time' => NULL],
       'template' => 'push_page',
   ];
   

@@ -1,0 +1,5 @@
+push.config:
+  title: 'Push Configuration'
+  description: 'Configure Number of Push'
+  route_name: push.config
+  parent: system.admin_config_system

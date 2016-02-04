@@ -1,0 +1,7 @@
+push.settings:
+  type: mapping
+  label: 'Settings for push module'
+  mapping:
+    default_number:
+      type: integer
+      label: 'Push Number'

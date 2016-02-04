@@ -1,0 +1,4 @@
+services:
+  push.push_record:
+    class: Drupal\push\PushRecord
+    arguments: ['@state']

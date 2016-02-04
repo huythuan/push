@@ -1,7 +1,16 @@
 push.push:
-  path: /push/{object}/{store}
+  path: /push/{object}/{store}/{number}
   defaults:
     _controller: 'Drupal\push\Controller\PushController::push'
     _title: 'Push Object'
+    number: 0
   requirements:
     _permission: 'access content'
+    number: \d+
+push.config:
+  path: /admin/config/system/push
+  defaults:
+    _form: 'Drupal\push\Form\ConfigForm'
+    _title: 'Configuration for push'
+  requirements:
+    _permission: 'configure_push'
